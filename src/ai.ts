@@ -346,7 +346,7 @@ export default class 藍 {
 	public async upload(file: Buffer | fs.ReadStream, meta: any) {
 		const res = await got.post({
 			url: `${config.apiUrl}/drive/files/create`,
-			formData: {
+			form: {
 				i: config.i,
 				file: {
 					value: file,
