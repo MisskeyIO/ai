@@ -36,6 +36,8 @@ jobs:
         with:
           builder: ${{ steps.buildx.outputs.name }}
           context: .
+          add-hosts: |
+            ja.osdn.net:127.0.0.1
           build-args: |
             enable_mecab=1
           push: true

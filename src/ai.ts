@@ -11,7 +11,7 @@ import config from '@/config.js';
 import Module from '@/module.js';
 import Message from '@/message.js';
 import Friend, { FriendDoc } from '@/friend.js';
-import { User } from '@/misskey/user.js';
+import type { User } from '@/misskey/user.js';
 import Stream from '@/stream.js';
 import log from '@/utils/log.js';
 import { sleep } from './utils/sleep.js';
