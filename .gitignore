@@ -1,5 +1,16 @@
-config.json
-built
+# Visual Studio Code
+/.vscode
+!/.vscode/extensions.json
+
+# Intelij-IDEA
+/.idea
+
+# Node.js
 node_modules
+built
+
+# ai
+/data
+config.json
 memory.json
 font.ttf
