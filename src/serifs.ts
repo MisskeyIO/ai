@@ -389,12 +389,6 @@ export default {
 		nothing: '絵文字を確認しましたが、なにも追加されていないみたいです',
 	},
 
-	aichat: {
-		nothing: type => `あぅ... ${type}のAPIキーが登録されてないみたいです`,
-		error: type => `うぇ...${type}でエラーが発生しちゃったみたいです。gemini-flashだと動くかも？`,
-		post: (text, type) => `${text} (${type}) #aichat`,
-	},
-
 	sleepReport: {
 		report: hours => `んぅ、${hours}時間くらい寝ちゃってたみたいです`,
 		reportUtatane: 'ん... うたた寝しちゃってました',
